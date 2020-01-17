@@ -1,0 +1,177 @@
+.logo {
+      text-align:center;
+      height:120px;
+  }
+  body {
+      margin: 0 auto;
+      background-position:center;
+      background-size: contain;
+  }
+  .Nav {
+      top: 0;
+      background-color:rgb(144, 167, 198);
+      padding:10px 0px 10px 0px;
+      color:white;
+      margin: 0 auto;
+      overflow: hidden;
+  }
+  .Nav a {
+      float: left;
+      color: White;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+  }
+  .reservations {
+        right: auto;
+        float: right;
+  }
+  .navarea {
+      right: auto;
+      float: right;
+  }
+  .homepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  h1 {
+    text-align:center;
+    color:rgb(144, 167, 198);
+    font-size:45px;
+  }
+  .review1 {
+    display: inline-block;
+    text-align:center;
+    font-size: 25px;
+    font-style: italic;
+    color: #5481a3;
+    width:40%;
+    padding-left:70px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  .botnav {
+    bottom: 0;
+    background-color:rgb(144, 167, 198);
+    height:100px;
+    color:white;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .logobot {
+    float: left;
+    height: 90px;
+  }
+  .botnavtext {
+    color: White;
+    display:block;
+    text-align: center;
+    font-size: 30px;
+  }
+  .rates {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:100%;
+  }
+  .sunset {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:100%;
+  }
+  .icon {
+    display: inline-block;
+    padding: 70px 70px 70px 140px;
+    height: 80px;
+    width: 80px;
+  }
+  .amenitiesinfo {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(144, 167, 198);
+  }
+  #slider {
+      width: 720px;
+      height: 400px;
+      overflow: hidden;
+  }
+  .scriptslide {
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 50%;
+  }
+  #slider .slides {
+      display: block;
+      width: 6000px;
+      height: 400px;
+      margin: 0;
+      padding: 0;
+  }
+
+  #slider .slide {
+      float: left;
+      list-style-type: none;
+      width: 720px;
+      height: 400px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .abouttext {
+    font-size:20px;
+    color: rgb(144, 167, 198);
+    font-style: italic;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 50%;
+  }
+@media (max-width: 700px){
+  html{
+    font-size: 120%;
+  }
+  .Nav {
+    display:block;
+  }
+  .Nav a {
+    font-size: 70%;
+  }
+  .logo {
+    height: 20%;
+  }
+  h1 {
+    font-size:140%;
+  }
+  .review1 {
+    display:inline-block;
+    width:20%;
+    font-size: 60%;
+  }
+  .botnavtext {
+    font-size:80%;
+  }
+  .icon {
+    padding: 15px 15px 15px 15px;
+  }
+  .scriptslide {
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  #slider {
+    max-width: 100%;
+  }
+   .rates img{
+     max-width: 100%;
+     height: auto;
+  }
+  .sunset img {
+    max-width: 100%;
+    height: auto;
+  }
+}
